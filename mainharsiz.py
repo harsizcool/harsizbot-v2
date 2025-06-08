@@ -8,10 +8,10 @@ import datetime
 import math # For help pagination
 from discord.ui import Button, View
 
+btoken = "MTM4MTMzMjQ1NjIyMDY1NTgyNw.GBIKle.ezlDWQzf68w6jr3ZAOw2TBiK1c9RWt_3kfMEf0"
 # --- CONFIGURATION ---
 CONFIG = {
     "PREFIX": ">",
-    "BOT_TOKEN": "MTM4MTMzMjQ1NjIyMDY1NTgyNw.GBIKle.ezlDWQzf68w6jr3ZAOw2TBiK1c9RWt_3kfMEf0",
     "DEFAULT_COLOR": 0x2B2D31, # Discord dark gray color
     "ERROR_COLOR": 0xED4245,   # Discord red color
     "SUCCESS_COLOR": 0x57F287, # Discord green color
@@ -3694,4 +3694,4 @@ async def help(ctx, command_name: str = None):
 
 
 # --- RUN BOT ---
-bot.run(CONFIG["BOT_TOKEN"])
+bot.run(btoken)
